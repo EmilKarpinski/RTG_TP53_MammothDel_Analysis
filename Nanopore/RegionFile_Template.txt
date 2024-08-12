@@ -1,0 +1,5 @@
+<AmpliconLength>	<Proportion of bases that need to be deleted within the regions below. Between 0-1>
+<Deletion Start>	<Deletion End>
+<Deletion Start>	<Deletion End>
+<Deletion Start>	<Deletion End>
+<Deletion Start>	<Deletion End>
