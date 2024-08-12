@@ -1,0 +1,5 @@
+#Prior to running remember to delete this line and save the data as Metadata.txt
+Sample	Set	Type
+<SampleName>	<Conditon or WT>	<Additional Info>
+<SampleName>	<Conditon or WT>	<Additional Info>
+<SampleName>	<Conditon or WT>	<Additional Info>
