@@ -30,5 +30,17 @@ Scripts used in the analysis of TP53 and TP53 retrogene (RTG) CRISPR-Cas9 knocko
 
 <ins>Summary</ins>: Identical to the TP53 RNAseq analysis script above, except labels the top 10 genes with the highest absolute log2 fold change instead of those related to the TP53 pathway. Used during mammoth deletion analysis. 
 
+## TFBSDeletions
+### GenerateWindows.awk
+<ins>Language</ins>: Awk
+
+<ins>Summary</ins>: Takes a fasta and generates windows along it of a given size, with a given slide (e.g. 25 bp windows starting every 10 bp). It also filters out windows if they contain more than the specified amount of missing data - via AmpProp=X where X is a decimal of how many N's are allowed in the given window. This runs better if you add "LANG=C" before the command (e.g. LANG=C ~/bin/GenerateWindows.awk -v WinSize=25 WinSlide=10 AmbProp=0.2 [input fasta]). 
+
+### R
+<ins>Language</ins>: R
+
+<ins>Summary</ins>: Identical to the TP53 RNAseq analysis script above, except labels the top 10 genes with the highest absolute log2 fold change instead of those related to the TP53 pathway. Used during mammoth deletion analysis. 
+
+
 # Source Information
 Scripts were generated as part of Karpinski et al. (2025). If used as part of your work, please cite the script used and the source publication: [DOI]
