@@ -41,6 +41,10 @@ Scripts used in the analysis of TP53 and TP53 retrogene (RTG) CRISPR-Cas9 knocko
 
 <ins>Summary</ins>: Splits a genome-wide depth file into individual contig depth files. 
 
+### CoverageCalc.awk
+<ins>Language</ins>: Awk
+
+<ins>Summary</ins>: Takes a tab delimited file containing windows (akin to a bed file - [Contig Name] [Start] [End]), and a samtools depth file for that contig, and outputs ranges which are some standard deviation threseholds below the mean coverage for the contig. If the value of StDevMultiplier is set really high (e.g. 99), it will restrict windows to only those which have no coverage. 
 
 # Source Information
 Scripts were generated as part of Karpinski et al. (2025). If used as part of your work, please cite the script used and the source publication: [DOI]
