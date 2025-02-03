@@ -51,6 +51,10 @@ Scripts used in the analysis of TP53 and TP53 retrogene (RTG) CRISPR-Cas9 knocko
 
 <ins>Summary</ins>: Takes a tab delimited file containing windows and concatonates overlap or contigous ones into a single interval for easier downstream processing.
 
+### TFBSTools_JASPAR2014.R
+<ins>Language</ins>: R
+
+<ins>Summary</ins>: Takes in a CSV containing some information on the contig and the sequence, and predicts transcription factor binding sites within the region. 
 
 # Source Information
 Scripts were generated as part of Karpinski et al. (2025). If used as part of your work, please cite the script used and the source publication: [DOI]
